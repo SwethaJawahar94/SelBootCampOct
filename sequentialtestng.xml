@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SalesForce">
+  <test thread-count="5" name="TopNavigations">
+    <classes>
+      <class name="week3.day1.TC2NewOppWithoutMandate"/>
+      <class name="week3.day1.TC4CaseWithoutMandate"/>
+      <class name="week3.day1.TC3NewCase"/>
+      <class name="week3.day1.TC5LegalEntitiesSortByDate"/>
+      <class name="week3.day1.TC1NewOppurtunity"/>
+    </classes>
+  </test> <!-- TopNavigations -->
+</suite> <!-- SalesForce -->
